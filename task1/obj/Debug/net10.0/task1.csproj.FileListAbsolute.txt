@@ -1,0 +1,14 @@
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/bin/Debug/net10.0/task1
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/bin/Debug/net10.0/task1.deps.json
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/bin/Debug/net10.0/task1.runtimeconfig.json
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/bin/Debug/net10.0/task1.dll
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/bin/Debug/net10.0/task1.pdb
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/task1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/task1.AssemblyInfoInputs.cache
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/task1.AssemblyInfo.cs
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/task1.csproj.CoreCompileInputs.cache
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/task1.dll
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/refint/task1.dll
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/task1.pdb
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/task1.genruntimeconfig.cache
+/Users/evm1t/ProgLang/lab6/ProgLang_Lab6/task1/obj/Debug/net10.0/ref/task1.dll
