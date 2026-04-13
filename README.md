@@ -46,11 +46,11 @@
 
 ### Тестирование
 
-![](скриншот1.png)
-![](скриншот2.png)
-![](скриншот3.png)
-![](скриншот4.png)
-![](скриншот5.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/1.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/2.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/3.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/4.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/5.png)
 
 # Задание 2
 
