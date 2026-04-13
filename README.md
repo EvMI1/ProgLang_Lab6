@@ -85,12 +85,12 @@
 
 ### Тестирование
 
-![](скриншот6.png)
-![](скриншот7.png)
-![](скриншот8.png)
-![](скриншот9.png)
-![](скриншот10.png)
-![](скриншот11.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/6.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/7.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/8.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/9.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/10.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/11.png)
 # Задание 3
 
 ## Задача 1
@@ -123,7 +123,7 @@
 
 ### Тестирование
 
-![](скриншот12.png)
-![](скриншот13.png)
-![](скриншот14.png)
-![](скриншот15.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/12.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/13.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/14.png)
+![](https://github.com/EvMI1/ProgLang_Lab6/blob/main/screenshots/15.png)
