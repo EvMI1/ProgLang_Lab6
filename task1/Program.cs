@@ -2,7 +2,7 @@
 
 namespace Lab6;
 
-internal class Prgramm
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -15,9 +15,8 @@ internal class Prgramm
             Character obj1 = new Character(damage, critMultiplier, attackSpeed);
             Console.WriteLine($"Объект базового класса: {obj1}");
             Console.WriteLine($"Произведение значений полей = {obj1.GetTotalDamage()}");
-            Character obj_copy = new Character(obj1);
-            Console.WriteLine($"Скопированный объект: {obj_copy}");
-
+            Character objCopy = new Character(obj1);
+            Console.WriteLine($"Скопированный объект: {objCopy}");
             Console.WriteLine("\n===ДОЧЕРНИЙ КЛАСС (маг)===");
             damage = HelpConsole.ReadInt("Введите урон: ");
             critMultiplier = HelpConsole.ReadInt("Введите множитель крита: ");

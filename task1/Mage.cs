@@ -2,41 +2,49 @@ namespace Lab6;
 
 internal class Mage : Character
 {
-    private int mana;
-    private int spellDamage;
+    private int _mana;
+    private int _spellDamage;
 
     public Mage(int damage, int critMultiplier, int attackSpeed, int mana, int spellDamage)
     : base(damage, critMultiplier, attackSpeed)
     {
-        Mana = mana;
-        SpellDamage = spellDamage;
+        _mana = mana;
+        _spellDamage = spellDamage;
     }
 
-    public Mage(Mage obj): base(obj)
+    public Mage(Mage obj) : base(obj)
     {
-        mana = obj.mana;
-        spellDamage = obj.spellDamage;
+        _mana = obj._mana;
+        _spellDamage = obj._spellDamage;
     }
 
     public int Mana
-    { 
-        get { return mana; }
+    {
+        get 
+        { 
+            return _mana; 
+        }
         set
         {
             if (value < 0)
-                throw new ArgumentOutOfRangeException("value", "Мана не может быть меньше 0.");
-            mana = value;
+                throw new ArgumentOutOfRangeException(nameof(value), 
+                "Мана не может быть меньше 0.");
+            _mana = value;
         }
     }
 
     public int SpellDamage
     {
-        get { return spellDamage; }
+        get 
+        {
+             return _spellDamage; 
+        }
         set
         {
             if (value > 100)
-                throw new ArgumentOutOfRangeException("value", "Урон заклинания не может превышать 100.");
-            spellDamage = value;
+                throw new ArgumentOutOfRangeException(nameof(value), 
+                "Урон заклинания не может превышать 100.");
+            _spellDamage = value;
         }
     }
 
@@ -47,17 +55,17 @@ internal class Mage : Character
             Console.WriteLine("Недостаточно маны!");
             return 0;
         }
-        mana -= 10;
-        return spellDamage;
+        _mana -= 10;
+        return _spellDamage;
     }
 
     public bool IsOutOfMana()
     {
-        return mana < 10;
+        return _mana < 10;
     }
 
     public override string ToString()
     {
-        return $"{base.ToString()}, Мана = {mana}, Урон заклинанием = {spellDamage}";
+        return $"{base.ToString()}, Мана = {_mana}, Урон заклинанием = {_spellDamage}";
     }
 }

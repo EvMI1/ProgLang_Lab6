@@ -2,59 +2,70 @@ namespace Lab6;
 
 internal class Character
 {
-    private int damage;
-    private int critMultiplier;
-    private int attackSpeed;
+    private int _damage;
+    private int _critMultiplier;
+    private int _attackSpeed;
 
     public Character(int damage, int critMultiplier, int attackSpeed)
     {
         Damage = damage;
-        this.critMultiplier = critMultiplier;
+        _critMultiplier = critMultiplier;
         AttackSpeed = attackSpeed;
     }
 
     public Character(Character obj)
     {
-        damage = obj.damage;
-        critMultiplier = obj.critMultiplier;
-        attackSpeed = obj.attackSpeed;
+        _damage = obj._damage;
+        _critMultiplier = obj._critMultiplier;
+        _attackSpeed = obj._attackSpeed;
     }
 
     public int Damage
     {
-        get { return damage; }
+        get 
+        { 
+            return _damage; 
+        }
         set
         {
             if (value <= 0)
-                throw new ArgumentOutOfRangeException("value", "Урон должен быть больше 0.");
-            damage = value;
+                throw new ArgumentOutOfRangeException(nameof(value), 
+                "Урон должен быть больше 0.");
+            _damage = value;
         }
     }
 
     public int CritMultiplier
     {
-        get { return critMultiplier; }
-        set { critMultiplier = value; }
+        get 
+        { 
+            return _critMultiplier; 
+        }
+        set { _critMultiplier = value; }
     }
 
     public int AttackSpeed
     {
-        get { return attackSpeed; }
+        get 
+        { 
+            return _attackSpeed; 
+        }
         set
         {
             if (value <= 0)
-                throw new ArgumentOutOfRangeException("value", "Скорость атаки должна быть больше 0.");
-            attackSpeed = value;
+                throw new ArgumentOutOfRangeException(nameof(value),
+                "Скорость атаки должна быть больше 0.");
+            _attackSpeed = value;
         }
     }
 
     public int GetTotalDamage()
     {
-        return damage * critMultiplier * attackSpeed;
+        return _damage * _critMultiplier * _attackSpeed;
     }
 
     public override string ToString()
     {
-        return $"Базовый урон = {damage}, Множитель урона = {critMultiplier}, Скорость атаки = {attackSpeed}";
+        return $"Базовый урон = {_damage}, Множитель урона = {_critMultiplier}, Скорость атаки = {_attackSpeed}";
     }
 }
